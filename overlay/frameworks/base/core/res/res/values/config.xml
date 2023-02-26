@@ -594,4 +594,7 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
     </string-array> 
 
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
+    
 </resources>
