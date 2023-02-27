@@ -100,8 +100,8 @@ PRODUCT_PACKAGES += \
 
 # Audio - A2DP
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.a2dp@1.0-impl \
-    android.hardware.bluetooth.a2dp@1.0-service
+   # android.hardware.bluetooth.a2dp@1.0-impl \
+   # android.hardware.bluetooth.a2dp@1.0-service
 
 # Adapt Launch
 PRODUCT_COPY_FILES += \
@@ -112,7 +112,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
     android.hardware.audio@2.0-service \
     android.hardware.audio.effect@5.0-impl \
-    android.hardware.audio.effect@2.0-service \
+    # android.hardware.audio.effect@2.0-service \
     android.hardware.soundtrigger@2.2-impl
 
 PRODUCT_PACKAGES += \
@@ -128,12 +128,12 @@ PRODUCT_PACKAGES += \
     tinymix
 
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
-    libhdmiedid \
-    libhfp \
-    libsndmonitor \
-    libspkrprot \
-    libssrec
+   # liba2dpoffload \
+   # libhdmiedid \
+   # libhfp \
+   # libsndmonitor \
+   # libspkrprot \
+   # libssrec
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
@@ -189,11 +189,11 @@ PRODUCT_COPY_FILES += \
 
 # CNE
 PRODUCT_PACKAGES += \
-    libcnefeatureconfig
+   # libcnefeatureconfig
 
 # Configstore
 PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.0-service
+    # android.hardware.configstore@1.0-service
 
 # Display
 PRODUCT_PACKAGES += \
@@ -201,15 +201,15 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-    liboverlay \
+   # liboverlay \
     libqdMetaData.system \
-    libgenlock \
+   # libgenlock \
     libtinyxml
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-impl \
+   # android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
@@ -245,7 +245,7 @@ PRODUCT_PACKAGES += \
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
-    libfmjni
+   # libfmjni
 
 # Framework detect
 PRODUCT_PACKAGES += \
@@ -374,7 +374,7 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
+   # libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
@@ -396,7 +396,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
     android.hardware.power@1.2.vendor \
-    android.hardware.power-service.X01AD-libperfmgr
+    # android.hardware.power-service.X01AD-libperfmgr
 
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
@@ -511,11 +511,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcld80211 \
-    libqsap_sdk \
-    libQWiFiSoftApCfg \
+   # libqsap_sdk \
+   # libQWiFiSoftApCfg \
     libwifi-hal-qcom \
     hostapd \
-    dhcpcd.conf \
+   # dhcpcd.conf \
     wcnss_service \
     wificond \
     wpa_supplicant \
