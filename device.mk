@@ -244,7 +244,7 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
+   # FMRadio \
    # libfmjni
 
 # Framework detect
