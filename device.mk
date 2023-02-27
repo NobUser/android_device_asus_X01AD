@@ -201,19 +201,19 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-   # liboverlay \
     libqdMetaData.system \
+    libtinyxml \
    # libgenlock \
-    libtinyxml
+   # liboverlay 
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
-   # android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service
+    android.hardware.memtrack@1.0-service \
+   # android.hardware.graphics.composer@2.1-impl 
 
 # Display Calibrators
 PRODUCT_COPY_FILES += \
@@ -374,10 +374,10 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
-   # libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+   # libOmxSwVencHevc
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
@@ -511,15 +511,15 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcld80211 \
-   # libqsap_sdk \
-   # libQWiFiSoftApCfg \
     libwifi-hal-qcom \
     hostapd \
-   # dhcpcd.conf \
     wcnss_service \
     wificond \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+   # libqsap_sdk \
+   # libQWiFiSoftApCfg \
+   # dhcpcd.conf 
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
