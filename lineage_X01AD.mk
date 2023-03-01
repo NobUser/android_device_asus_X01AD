@@ -29,6 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 WITH_GMS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifiers.
 PRODUCT_NAME := lineage_X01AD
