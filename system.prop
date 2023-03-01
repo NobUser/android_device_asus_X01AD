@@ -252,3 +252,8 @@ persist.sys.binary_xml=false
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
 zygote.critical_window.minute=10
+
+# Radio
+persist.sys.fflag.override.settings_provider_model=true
+telephony.lteOnCdmaDevice=1
+persist.radio.add_power_save=1
